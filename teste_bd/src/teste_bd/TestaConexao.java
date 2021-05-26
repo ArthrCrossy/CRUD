@@ -11,7 +11,7 @@ public class TestaConexao {
 		
 		Connection connection = ConnectionFactory.recuperarConexao();
 		
-		System.out.println("Fechando conexão hahahahaha");
+		System.out.println("Fechando conexão");
 		
 		connection.close();
 		
